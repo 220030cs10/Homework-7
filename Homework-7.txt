@@ -1,0 +1,105 @@
+Mahmudjon, [11/24/2022 10:59 PM]
+1
+
+Mahmudjon, [11/24/2022 10:59 PM]
+#include <iostream>
+using namespace std;
+int m(int num1, int num2){
+if(num2==0){
+return 0;
+}else{
+return(num1+m(num1,num2-1));
+}
+}
+int main(int argc, const char * argv[]){
+int num1,num2;
+cin>>num1>>num2;
+cout<<m(num1,num2)<<endl;
+return 0;
+}
+
+Mahmudjon, [11/24/2022 11:12 PM]
+2
+
+Mahmudjon, [11/24/2022 11:29 PM]
+#include <iostream>
+using namespace std;
+int main(int num){
+if(num==0) return 0;
+return (num%10+m(num/10));
+}
+int main(int argc, const char * argv[]){
+int num;
+cin>>num;
+cout<<main(num)<<endl;
+return 0;
+}
+
+Mahmudjon, [11/24/2022 11:30 PM]
+3
+
+Mahmudjon, [11/24/2022 11:32 PM]
+#include <iostream>
+using namespace std;
+int main(){
+if(n==0) return 0;
+return (n%2+10*(main(n/2)));
+}
+int main(int argc, const char * argv[]){
+int n;
+cin>>n;
+cout<<main(n)<<endl;
+return 0;
+}Mahmudjon, [11/24/2022 10:59 PM]
+1
+
+Mahmudjon, [11/24/2022 10:59 PM]
+#include <iostream>
+using namespace std;
+int m(int num1, int num2){
+if(num2==0){
+return 0;
+}else{
+return(num1+m(num1,num2-1));
+}
+}
+int main(int argc, const char * argv[]){
+int num1,num2;
+cin>>num1>>num2;
+cout<<m(num1,num2)<<endl;
+return 0;
+}
+
+Mahmudjon, [11/24/2022 11:12 PM]
+2
+
+Mahmudjon, [11/24/2022 11:29 PM]
+#include <iostream>
+using namespace std;
+int main(int num){
+if(num==0) return 0;
+return (num%10+m(num/10));
+}
+int main(int argc, const char * argv[]){
+int num;
+cin>>num;
+cout<<main(num)<<endl;
+return 0;
+}
+
+Mahmudjon, [11/24/2022 11:30 PM]
+3
+
+Mahmudjon, [11/24/2022 11:32 PM]
+#include <iostream>
+using namespace std;
+int main(){
+if(n==0) return 0;
+return (n%2+10*(main(n/2)));
+}
+int main(int argc, const char * argv[]){
+int n;
+cin>>n;
+cout<<main(n)<<endl;
+return 0;
+}
